@@ -1,0 +1,14 @@
+[MASTER]
+
+[MESSAGES CONTROL]
+disable=missing-docstring
+
+[TYPECHECK]
+
+[REPORTS]
+
+[EXTENSIONS]
+load-plugins=pylint_django
+
+[pylint_django]
+disable=missing-model-docstring,missing-app-docstring,missing-module-docstring
